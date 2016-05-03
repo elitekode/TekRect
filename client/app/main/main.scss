@@ -1,0 +1,48 @@
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+//.hero-unit {
+////  position: relative;
+////  padding: 30px 15px;
+////  color: #F5F5F5;
+////  text-align: center;
+////  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+////  background: #4393B9;
+////}
+.hero-unit {
+  background: url(../assets/images/fractalmain.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  position: relative;
+  padding: 30px 15px;
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.secondary-bg {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  background: inherit;
+  background-image: url(http://imgsrc.hubblesite.org/hu/db/images/hs-2010-13-a-web.jpg);
+  transition: opacity 2s linear;
+}
+
+.titlu:hover .secondary-bg {
+  opacity: 1;
+}
+
+.navbar-text {
+  margin-left: 15px;
+}

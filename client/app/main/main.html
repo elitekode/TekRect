@@ -1,0 +1,25 @@
+<navbar></navbar>
+<header class="hero-unit" id="banner">
+  <canvas></canvas>
+  <div class="container">
+    <h1  class="txt anim-text-flow">TekRect</h1>
+    <p class="lead"><strong>Technology Directly priced at source cost for You</strong></p>
+    <!--<img src="assets/images/logo.png" alt="TekRect">-->
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Featured Techs:</h1>
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="product in products">
+        <li><a ui-sref="viewProduct({id: product._id})" tooltip="{{product.description}}">
+          {{product.title}} -
+          <span class="text-muted">{{product.price | currency}}</span>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer></footer>
