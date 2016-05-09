@@ -3,7 +3,7 @@
  */
 
 'use strict';
-
+var newrelic = require('newrelic');
 var express = require('express');
 var favicon = require('serve-favicon');
 var morgan = require('morgan');
