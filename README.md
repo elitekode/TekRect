@@ -1,17 +1,12 @@
-# Meanshop [![Build Status](https://travis-ci.org/amejiarosario/meanshop.svg?branch=master)](https://travis-ci.org/amejiarosario/meanshop)
 
-E-commerce Application built with the MEAN stack
 
-This e-commerce platform is built step-by-step on my book "Building an e-Commerce Application with MEAN" available on:
 
-  - [Amazon](http://www.amazon.com/Building-e-Commerce-Application-Adrian-Mejia/dp/1785286552/)
-  - [Packt Publishing](https://www.packtpub.com/web-development/building-e-commerce-application-mean)
-  - [Safari Online](https://www.safaribooksonline.com/library/view/building-an-e-commerce/9781785286551/)
-  - [O'Reilly Books](http://shop.oreilly.com/product/9781785286551.do)
 
-![Building an e-Commerce Application with MEAN](https://raw.githubusercontent.com/amejiarosario/meanshop/master/e2e/fixtures/meanshop-book.png "Building an e-Commerce Application with MEAN")
-
+### TekRect
+#description: E-com_merc.e platform using node, angular mongodb
+#deployed via heroku at https://tekrect.herokuapp.com/
 # Installation
+
 
 ## Node v0.12.x
 
@@ -53,7 +48,7 @@ gem install sass
 ## Source code
 You can either build the project from scratch following the instructions on the book's chapter 1 or get the source code.
 ```bash
-git clone https://github.com/amejiarosario/meanshop.git
+
 cd meanshop
 npm install
 bower install
@@ -95,7 +90,7 @@ git checkout master
   - compile assets: `grunt build`
 
 # Issues
-For any question, ideas for improvement use [click here](https://github.com/amejiarosario/meanshop/issues/new).
+For any question, ideas for improvement use [click here].
 
 # Contributing
 If you have ideas to make this app better (and you should! 😉) you can contribute your features using the following instructions:
@@ -141,4 +136,4 @@ Any other update can be refreshed on Heroku by typing the following command:
 `grunt buildcontrol:heroku`.
 
 # Contact
-Find my contact info at [http://adrianmejia.com](http://adrianmejia.com).
+Find my contact info at elitekode@gmx.com 
