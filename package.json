@@ -1,11 +1,12 @@
 {
-  "name": "meanshop",
+  "name": "TekRect",
   "version": "0.0.0",
   "main": "server/app.js",
   "dependencies": {
     "babel-core": "^5.6.4",
     "bluebird": "^2.9.34",
     "body-parser": "~1.5.0",
+    "bower": "^1.7.9",
     "braintree": "^1.29.0",
     "composable-middleware": "^0.3.0",
     "compression": "~1.0.1",
@@ -17,6 +18,7 @@
     "express": "~4.9.0",
     "express-jwt": "^3.0.0",
     "express-session": "~1.0.2",
+    "grunt": "^0.4.5",
     "jsonwebtoken": "^5.0.0",
     "lodash": "~2.4.1",
     "method-override": "~1.0.0",
@@ -105,9 +107,9 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "start": "node server",
-    "test": "grunt test",
-    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
-  },
+  "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+  "start": "node server.js",
+  "postinstall": "bash ./post_install.sh"
+},
   "private": true
 }
