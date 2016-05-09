@@ -90,7 +90,7 @@ git checkout master
   - compile assets: `grunt build`
 
 # Issues
-For any question, ideas for improvement use [click here].
+For any question, ideas for improvement use email me.
 
 # Contributing
 If you have ideas to make this app better (and you should! 😉) you can contribute your features using the following instructions:
@@ -102,7 +102,7 @@ If you have ideas to make this app better (and you should! 😉) you can contrib
 5. Come to this page and it will show up "create pull request" option.
 6. Submit your pull request and add some info about your changes. Include screenshots and animated GIFs in your pull request whenever possible.
 
-When you are contributing for a 2nd time or further, sync your fork to make sure you have the latest code. More instructions in [setting upstream](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork](https://help.github.com/articles/syncing-a-fork/).
+
 
 # Deploying to Heroku
 
@@ -136,4 +136,4 @@ Any other update can be refreshed on Heroku by typing the following command:
 `grunt buildcontrol:heroku`.
 
 # Contact
-Find my contact info at elitekode@gmx.com 
+Find my contact info at elitekode@gmx.com
