@@ -308,7 +308,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'meanshopApp',
+        module: 'app1',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,

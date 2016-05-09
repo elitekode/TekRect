@@ -7,18 +7,14 @@
 // Set default node environment to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
-var newrelic = require('newrelic');
+
 
 var express = require('express');
 var mongoose = require('mongoose');
 var config = require('./config/environment');
 
 // Connect to MongoDB
-var mongoUrl =
-  process.env.MONGOLAB_URI || 'mongodb://heroku_p1dfv02j:ei13v9hcp14tk5l6kbedolua40@ds017862.mlab.com:17862/heroku_p1dfv02j';
-  process.env.MONGOHQ_URL ||
-
-mongoose.connect(mongoUrl);
+mongoose.connect(config.mongo.uri, config.mongo.options);
 mongoose.connection.on('error', function(err) {
   console.error('MongoDB connection error: ' + err);
   process.exit(-1);

@@ -15,7 +15,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:    process.env.MONGOLAB_URI ||
+    uri:    process.env.MONGOLAB_URI || "mongodb://heroku_wp5whcgt:et18vqc8smhhgcmhbgq79mihsn@ds017852.mlab.com:17852/heroku_wp5whcgt"
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL +
             process.env.OPENSHIFT_APP_NAME ||
